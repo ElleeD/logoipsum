@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Прикольный сайт</title>
     <link rel="stylesheet" href="style.css/style.css">
+    
 </head>
 <body>
     <header class="header">
@@ -36,43 +37,98 @@
             </div>
         </div>
     </header>
-    <section class="container about">
-        <div>
-            <h1 class="about__title">Grow your subscription business</h1>
-            <p class="about__text">Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.</p>
-            <div>
-                <button class="button button__violet">Get Started</button>
-                <button class="button button__transparent"> Try</button>
+    <main class="main">
+        <section class="container about">
+            <div class="text">
+                <h1 class="about__title">Grow your subscription business</h1>
+                <p class="about__text">Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.</p>
+                <div>
+                    <button class="button button__violet">Get Started</button>
+                    <button class="button button__transparent"> Try</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <img src="img/Hero.png" alt="">
-        </div>
-    </section>
-    <footer class="footer" >
-        <div class="container footer__flex">
-            <div>
-                <a href="#">
-                    <img src="img/Logo Color.svg" alt="">
-                </a>
+            <div class="image">
+                <img src="img/Hero.png" alt="">
             </div>
-            <nav>
-                <ul>
-                    <li class="nav__li">
-                        <a  class="nav__link" href="">Support</a>
-                    </li>
-                    <li class="nav__li">
-                        <a class="nav__link" href="">Premium</a>
-                    </li>
-                    <li class="nav__li">
-                        <a class="nav__link" href="">Pricing</a>
-                    </li>
-                    <li class="nav__li">
-                        <a class="nav__link" href="">Blog</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
+        </section>
+        <section class="container subscrible">
+            <div>
+                <img src="img/secondman.png" alt="">
+            </div>
+            <div>
+                <h2 class="subscrible__title">Subscription index</h2>
+                <form>
+                    <input class="input" type="text" placeholder="Email">
+                    <button class="button button__violet">Try</button>
+                </form>
+                
+            </div>
+        
+        </section>
+        <section class="container plan">
+            <h2 class="plan__title">
+                Get the right plan for future
+            </h2>
+            <div class="plan__flex">
+                <div class="item">
+                    <p class="item__text">Starter</p>
+                    <h3 class="item__title">Free</span> </h3>
+                    <ul>
+                        <li class="item__li">1 Website </li>
+                        <li class="item__li">5 GB Hosting</li>
+                        <li class="item__li">Limited Support</li>
+                    </ul>
+                    <button class="button button__item">Get Started</button>
+                </div>
+                <div class="item">
+                    <p class="item__text">Premium</p>
+                    <h3 class="item__title">$29 <span>/month</span> </h3>
+                    <ul>
+                        <li class="item__li">10 Website </li>
+                        <li class="item__li">15 GB Hosting</li>
+                        <li class="item__li">Premium Support</li>
+                    </ul>
+                    <button class="button button__item">Get Started</button>
+                </div>
+                <div class="item">
+                    <p class="item__text">Enterprise</p>
+                    <h3 class="item__title">$49 <span>/month</span> </h3>
+                    <ul>
+                        <li class="item__li">Unlimited Website </li>
+                        <li class="item__li">50 GB Hosting</li>
+                        <li class="item__li">Premium Support</li>
+                    </ul>
+                    <button class="button button__item">Get Started</button>
+                </div>
+            </div>
+
+        </section>
+        <footer class="footer" >
+            <div class="container footer__flex">
+                <div>
+                    <a href="#">
+                        <img src="img/Logo Color.svg" alt="">
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="nav__li">
+                            <a  class="nav__link" href="">Support</a>
+                        </li>
+                        <li class="nav__li">
+                            <a class="nav__link" href="">Premium</a>
+                        </li>
+                        <li class="nav__li">
+                            <a class="nav__link" href="">Pricing</a>
+                        </li>
+                        <li class="nav__li">
+                            <a class="nav__link" href="">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </main>
+    <script src="js/js.js"></script>
 </body>
 </html>
